@@ -9,7 +9,7 @@ val_d = int(input(""))
 
 if val_b > val_c and val_d > val_a:
     if val_c + val_d > val_a + val_b:
-        if val_c and val_d >= 0:
+        if val_c >= 0 and val_d >= 0:
             if val_a % 2 == 0:
                 print("Valores aceptados")
             else:
